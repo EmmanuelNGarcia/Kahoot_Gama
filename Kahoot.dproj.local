@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2026/05/08 12:02:51.291,=C:\Users\manun\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/05/08 12:03:14.317,C:\Users\manun\Documents\Embarcadero\Studio\Projects\Kahoot\uMain.pas=C:\Users\manun\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/05/08 12:03:14.317,C:\Users\manun\Documents\Embarcadero\Studio\Projects\Kahoot\uMain.fmx=C:\Users\manun\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2026/05/08 12:03:19.218,C:\Users\manun\Documents\Embarcadero\Studio\Projects\Kahoot\Kahoot.dproj=C:\Users\manun\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
