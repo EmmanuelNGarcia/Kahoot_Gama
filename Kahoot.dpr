@@ -3,12 +3,12 @@ program Kahoot;
 uses
   System.StartUpCopy,
   FMX.Forms,
-  uMain in 'uMain.pas' {Form1};
+  uMain in 'uMain.pas' {frmMain};
 
 {$R *.res}
 
 begin
   Application.Initialize;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfrmMain, frmMain);
   Application.Run;
 end.

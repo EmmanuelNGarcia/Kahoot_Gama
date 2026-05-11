@@ -1,0 +1,71 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'Kahoot!'
+  ClientHeight = 572
+  ClientWidth = 456
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object rctMain: TRectangle
+    Align = Client
+    Fill.Color = claBlueviolet
+    Size.Width = 456.000000000000000000
+    Size.Height = 572.000000000000000000
+    Size.PlatformDefault = False
+    object Label1: TLabel
+      StyledSettings = []
+      Position.X = 120.000000000000000000
+      Position.Y = 160.000000000000000000
+      Size.Width = 233.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Forte'
+      TextSettings.Font.Size = 48.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'Kahoot !'
+      TabOrder = 0
+    end
+    object rctGame: TRectangle
+      Position.X = 144.000000000000000000
+      Position.Y = 280.000000000000000000
+      Size.Width = 193.000000000000000000
+      Size.Height = 105.000000000000000000
+      Size.PlatformDefault = False
+      object edtGamePin: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 0
+        Text = 'Game Pin'
+        TextSettings.FontColor = claSlategray
+        TextSettings.HorzAlign = Center
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Size, Style]
+      end
+      object Rectangle2: TRectangle
+        Fill.Color = claGray
+        Position.X = 8.000000000000000000
+        Position.Y = 57.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        object lblEnter: TLabel
+          Align = Client
+          StyledSettings = [Family, Size, Style]
+          Size.Width = 177.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'Enter'
+          TabOrder = 0
+        end
+      end
+    end
+  end
+end

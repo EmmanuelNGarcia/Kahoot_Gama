@@ -4,10 +4,22 @@ interface
 
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
-  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs;
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Objects, FMX.Edit;
 
 type
-  TForm1 = class(TForm)
+  TfrmMain = class(TForm)
+    rctMain: TRectangle;
+    Label1: TLabel;
+    rctGame: TRectangle;
+    edtGamePin: TEdit;
+    lblEnter: TLabel;
+    rctEnter: TRectangle;
+    Circle1: TCircle;
+    Circle2: TCircle;
+    Gradient1: TBrushObject;
+    Gradient2: TBrushObject;
+    Rectangle1: TBrushObject;
   private
     { Private declarations }
   public
@@ -15,7 +27,7 @@ type
   end;
 
 var
-  Form1: TForm1;
+  frmMain: TfrmMain;
 
 implementation
 
