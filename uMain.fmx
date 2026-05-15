@@ -1,4 +1,4 @@
-object frmMain: TfrmMain
+﻿object frmMain: TfrmMain
   Left = 0
   Top = 0
   Caption = 'Kahoot!'
@@ -8,113 +8,6 @@ object frmMain: TfrmMain
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   DesignerMasterStyle = 0
-  object rctMain: TRectangle
-    Align = Client
-    Fill.Color = claBlueviolet
-    Size.Width = 456.000000000000000000
-    Size.Height = 572.000000000000000000
-    Size.PlatformDefault = False
-    object Label1: TLabel
-      StyledSettings = []
-      Position.X = 104.000000000000000000
-      Position.Y = 185.000000000000000000
-      Size.Width = 257.000000000000000000
-      Size.Height = 71.000000000000000000
-      Size.PlatformDefault = False
-      TextSettings.Font.Family = 'Segoe Print'
-      TextSettings.Font.Size = 48.000000000000000000
-      TextSettings.Font.StyleExt = {00070000000000000004000000}
-      TextSettings.FontColor = claWhite
-      TextSettings.HorzAlign = Center
-      Text = 'Kahoot!'
-      TabOrder = 0
-    end
-    object rctGame: TRectangle
-      Position.X = 144.000000000000000000
-      Position.Y = 280.000000000000000000
-      Size.Width = 193.000000000000000000
-      Size.Height = 105.000000000000000000
-      Size.PlatformDefault = False
-      object edtGamePin: TEdit
-        Touch.InteractiveGestures = [LongTap, DoubleTap]
-        TabOrder = 0
-        TextSettings.Font.Family = 'Arial Rounded MT'
-        TextSettings.Font.Size = 16.000000000000000000
-        TextSettings.Font.StyleExt = {00070000000000000004000000}
-        TextSettings.HorzAlign = Center
-        Position.X = 8.000000000000000000
-        Position.Y = 8.000000000000000000
-        Size.Width = 177.000000000000000000
-        Size.Height = 41.000000000000000000
-        Size.PlatformDefault = False
-        TextPrompt = 'Game Pin'
-        StyledSettings = []
-      end
-      object rctEnter: TRectangle
-        Fill.Color = xFF3C3C3C
-        Position.X = 8.000000000000000000
-        Position.Y = 57.000000000000000000
-        Size.Width = 177.000000000000000000
-        Size.Height = 40.000000000000000000
-        Size.PlatformDefault = False
-        object lblEnter: TLabel
-          Align = Client
-          StyledSettings = []
-          Size.Width = 177.000000000000000000
-          Size.Height = 40.000000000000000000
-          Size.PlatformDefault = False
-          TextSettings.Font.Family = 'Arial Rounded MT'
-          TextSettings.Font.Size = 14.000000000000000000
-          TextSettings.Font.StyleExt = {00070000000000000004000000}
-          TextSettings.FontColor = claWhite
-          TextSettings.HorzAlign = Center
-          Text = 'Enter'
-          TabOrder = 0
-        end
-      end
-    end
-    object Circle1: TCircle
-      Fill.Kind = Gradient
-      Fill.Gradient.Points = <
-        item
-          Color = xFFB00FDE
-          Offset = 0.432098776102066000
-        end
-        item
-          Color = claWhite
-          Offset = 1.000000000000000000
-        end>
-      Fill.Gradient.StartPosition.X = 1.000000000000000000
-      Fill.Gradient.StartPosition.Y = 0.149896234273910500
-      Fill.Gradient.StopPosition.Y = 0.850103735923767100
-      Position.X = 320.000000000000000000
-      Position.Y = -48.000000000000000000
-      Size.Width = 186.000000000000000000
-      Size.Height = 241.000000000000000000
-      Size.PlatformDefault = False
-    end
-    object Circle2: TCircle
-      Fill.Kind = Gradient
-      Fill.Gradient.Points = <
-        item
-          Color = xFFB61DCE
-          Offset = 0.609876573085784900
-        end
-        item
-          Color = claWhite
-          Offset = 1.000000000000000000
-        end>
-      Fill.Gradient.StartPosition.X = 0.266846179962158200
-      Fill.Gradient.StartPosition.Y = 1.000000000000000000
-      Fill.Gradient.StopPosition.X = 0.733153820037841800
-      Fill.Gradient.StopPosition.Y = -0.000000025007132365
-      Position.X = -183.000000000000000000
-      Position.Y = 344.000000000000000000
-      Size.Width = 384.000000000000000000
-      Size.Height = 345.000000000000000000
-      Size.PlatformDefault = False
-    end
-  end
   object Gradient1: TBrushObject
     StyleName = 'Gradient1'
     Brush.Kind = Gradient
@@ -131,8 +24,7 @@ object frmMain: TfrmMain
     Brush.Gradient.StartPosition.Y = 1.000000000000000000
     Brush.Gradient.StopPosition.X = 0.733153820037841800
     Brush.Gradient.StopPosition.Y = -0.000000025007132365
-    Left = 8
-    Top = 496
+    Left = 272
   end
   object Gradient2: TBrushObject
     StyleName = 'Gradient2'
@@ -149,13 +41,637 @@ object frmMain: TfrmMain
     Brush.Gradient.StartPosition.X = 1.000000000000000000
     Brush.Gradient.StartPosition.Y = 0.149896234273910500
     Brush.Gradient.StopPosition.Y = 0.850103735923767100
-    Left = 400
-    Top = 40
+    Left = 224
   end
   object Rectangle1: TBrushObject
     StyleName = 'Rectangle1'
     Brush.Color = xFF3C3C3C
-    Left = 8
-    Top = 408
+    Left = 320
+  end
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 456.000000000000000000
+    Size.Height = 572.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 3
+    TabPosition = PlatformDefault
+    Sizes = (
+      456s
+      546s
+      456s
+      546s
+      456s
+      546s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      object rctMain: TRectangle
+        Align = Client
+        Fill.Kind = Gradient
+        Fill.Gradient.Points = <
+          item
+            Color = xFF7F02AF
+            Offset = 0.000000000000000000
+          end
+          item
+            Color = claWhite
+            Offset = 1.000000000000000000
+          end>
+        Fill.Gradient.StartPosition.X = 0.500000000000000000
+        Fill.Gradient.StartPosition.Y = 1.000000000000000000
+        Fill.Gradient.StopPosition.X = 0.499999970197677600
+        Fill.Gradient.StopPosition.Y = 0.000000000000000000
+        Size.Width = 456.000000000000000000
+        Size.Height = 546.000000000000000000
+        Size.PlatformDefault = False
+        object ITTAhoot: TLabel
+          StyledSettings = []
+          Position.X = 104.000000000000000000
+          Position.Y = 193.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 71.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Arial'
+          TextSettings.Font.Size = 48.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'ITTAhoot!'
+          TabOrder = 0
+        end
+        object rctGame: TRectangle
+          Fill.Color = claWhite
+          Position.X = 144.000000000000000000
+          Position.Y = 280.000000000000000000
+          Size.Width = 193.000000000000000000
+          Size.Height = 105.000000000000000000
+          Size.PlatformDefault = False
+          object edtGamePin: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 0
+            TextSettings.Font.Family = 'Arial Rounded MT'
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.HorzAlign = Center
+            Position.X = 8.000000000000000000
+            Position.Y = 8.000000000000000000
+            Size.Width = 177.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'Game Pin'
+            StyledSettings = []
+          end
+          object rctEnter: TRectangle
+            Fill.Color = xFF3C3C3C
+            Position.X = 8.000000000000000000
+            Position.Y = 57.000000000000000000
+            Size.Width = 177.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            object lblEnter: TLabel
+              Align = Client
+              StyledSettings = []
+              Size.Width = 177.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Arial Rounded MT'
+              TextSettings.Font.Size = 14.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claWhite
+              TextSettings.HorzAlign = Center
+              Text = 'Enter'
+              TabOrder = 0
+              OnClick = lblEnterClick
+            end
+          end
+        end
+        object Circle1: TCircle
+          Fill.Kind = Gradient
+          Fill.Gradient.Points = <
+            item
+              Color = xFFB00FDE
+              Offset = 0.432098776102066000
+            end
+            item
+              Color = claWhite
+              Offset = 1.000000000000000000
+            end>
+          Fill.Gradient.StartPosition.X = 1.000000000000000000
+          Fill.Gradient.StartPosition.Y = 0.149896234273910500
+          Fill.Gradient.StopPosition.Y = 0.850103735923767100
+          Position.X = 256.000000000000000000
+          Position.Y = -48.000000000000000000
+          Size.Width = 250.000000000000000000
+          Size.Height = 257.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Circle2: TCircle
+          Fill.Kind = Gradient
+          Fill.Gradient.Points = <
+            item
+              Color = claBlueviolet
+              Offset = 0.609876573085784900
+            end
+            item
+              Color = claWhite
+              Offset = 1.000000000000000000
+            end>
+          Fill.Gradient.StartPosition.X = 0.266846179962158200
+          Fill.Gradient.StartPosition.Y = 1.000000000000000000
+          Fill.Gradient.StopPosition.X = 0.733153820037841800
+          Fill.Gradient.StopPosition.Y = -0.000000025007132365
+          Position.X = -183.000000000000000000
+          Position.Y = 352.000000000000000000
+          Size.Width = 384.000000000000000000
+          Size.Height = 337.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object FlowLayout1: TFlowLayout
+          Align = Bottom
+          Position.Y = 502.000000000000000000
+          Size.Width = 456.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Justify = Center
+          JustifyLastLine = Center
+          FlowDirection = LeftToRight
+          object lblDescripcion: TLabel
+            StyledSettings = [Family, Size]
+            Position.X = 63.500000000000000000
+            Size.Width = 209.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            TextSettings.FontColor = claWhite
+            TextSettings.HorzAlign = Center
+            Text = 'Crea tu propio ITTAhoot GRATIS en '
+            TabOrder = 0
+          end
+          object lblITTAhoot: TLabel
+            Cursor = crHandPoint
+            StyledSettings = [Family, Size]
+            HitTest = True
+            Position.X = 272.500000000000000000
+            TextSettings.Font.StyleExt = {00090000000000000004000000}
+            TextSettings.FontColor = claWhite
+            Text = 'ITTAhoot.com'
+            TabOrder = 1
+            OnClick = lblITTAhootClick
+            OnMouseEnter = lblITTAhootMouseEnter
+          end
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+      object rtglFondo: TRectangle
+        Align = Client
+        Fill.Kind = Gradient
+        Fill.Gradient.Points = <
+          item
+            Color = claBlueviolet
+            Offset = 0.000000000000000000
+          end
+          item
+            Color = claWhite
+            Offset = 1.000000000000000000
+          end>
+        Size.Width = 456.000000000000000000
+        Size.Height = 546.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = rtglFondoClick
+        object rtglTarjeta: TRectangle
+          Fill.Kind = Gradient
+          Fill.Gradient.Points = <
+            item
+              Color = claWhite
+              Offset = 0.000000000000000000
+            end
+            item
+              Color = claWhite
+              Offset = 1.000000000000000000
+            end>
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Position.X = 56.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 345.000000000000000000
+          Size.Height = 377.000000000000000000
+          Size.PlatformDefault = False
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object edtNombredeUsuario: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            StyleLookup = 'editstyle'
+            TabOrder = 1
+            Position.X = 32.000000000000000000
+            Position.Y = 72.000000000000000000
+            Size.Width = 217.000000000000000000
+            Size.Height = 22.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'Nombre de Usuario'
+          end
+          object edtContraseña: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            StyleLookup = 'editstyle'
+            TabOrder = 0
+            Password = True
+            Position.X = 32.000000000000000000
+            Position.Y = 128.000000000000000000
+            Size.Width = 217.000000000000000000
+            Size.Height = 22.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'Contrase'#241'a'
+          end
+          object rtlgRegistrarse: TRectangle
+            Fill.Color = claLawngreen
+            Position.X = 32.000000000000000000
+            Position.Y = 200.000000000000000000
+            Size.Width = 121.000000000000000000
+            Size.Height = 81.000000000000000000
+            Size.PlatformDefault = False
+            XRadius = 5.000000000000000000
+            YRadius = 5.000000000000000000
+            OnClick = rtlgRegistrarseClick
+            object lblRegistrarse: TLabel
+              StyledSettings = []
+              Position.Y = 32.000000000000000000
+              TextSettings.Font.Family = 'Palatino Linotype'
+              TextSettings.Font.Size = 18.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claWhite
+              TextSettings.HorzAlign = Center
+              Text = 'Registrarse'
+              TabOrder = 0
+            end
+          end
+          object rtglCrearJuego: TRectangle
+            Fill.Color = claSkyblue
+            Position.X = 192.000000000000000000
+            Position.Y = 200.000000000000000000
+            Size.Width = 121.000000000000000000
+            Size.Height = 81.000000000000000000
+            Size.PlatformDefault = False
+            XRadius = 5.000000000000000000
+            YRadius = 5.000000000000000000
+            OnClick = rtglCrearJuegoClick
+            object lblCrearJuego: TLabel
+              StyledSettings = []
+              Position.Y = 32.000000000000000000
+              Size.Width = 120.000000000000000000
+              Size.Height = 25.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Palatino Linotype'
+              TextSettings.Font.Size = 18.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claWhite
+              TextSettings.HorzAlign = Center
+              Text = 'Crear Juego'
+              TabOrder = 0
+            end
+          end
+        end
+        object lblVolver: TLabel
+          StyledSettings = [Size, FontColor]
+          Position.X = 360.000000000000000000
+          Position.Y = 504.000000000000000000
+          Size.Width = 88.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Ebrima'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.HorzAlign = Center
+          Text = 'Volver =>'
+          TabOrder = 1
+        end
+      end
+    end
+    object TabItem3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem3'
+      object Rectangle2: TRectangle
+        Position.X = 152.000000000000000000
+        Position.Y = 158.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Rectangle3: TRectangle
+        Align = Client
+        Fill.Kind = Gradient
+        Fill.Gradient.Points = <
+          item
+            Color = claBlueviolet
+            Offset = 0.000000000000000000
+          end
+          item
+            Color = claWhite
+            Offset = 1.000000000000000000
+          end>
+        Size.Width = 456.000000000000000000
+        Size.Height = 546.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = rtglFondoClick
+        object Rectangle4: TRectangle
+          Align = Top
+          Fill.Kind = Gradient
+          Fill.Gradient.Points = <
+            item
+              Color = claWhite
+              Offset = 0.000000000000000000
+            end
+            item
+              Color = claWhite
+              Offset = 1.000000000000000000
+            end>
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Size.Width = 456.000000000000000000
+          Size.Height = 150.000000000000000000
+          Size.PlatformDefault = False
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Edit1: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 0
+            TextSettings.Font.Family = 'Arial Rounded MT'
+            TextSettings.Font.Size = 24.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            Position.X = 40.000000000000000000
+            Position.Y = 40.000000000000000000
+            Size.Width = 385.000000000000000000
+            Size.Height = 81.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'Escribe tu pregunta aqui...'
+            StyledSettings = [FontColor]
+          end
+        end
+        object Label3: TLabel
+          StyledSettings = [Size, FontColor]
+          Position.X = 360.000000000000000000
+          Position.Y = 521.000000000000000000
+          Size.Width = 88.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Ebrima'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.HorzAlign = Center
+          Text = 'Volver =>'
+          TabOrder = 1
+        end
+        object GridPanelLayout1: TGridPanelLayout
+          Position.X = 8.000000000000000000
+          Position.Y = 320.000000000000000000
+          Size.Width = 440.000000000000000000
+          Size.Height = 193.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          ColumnCollection = <
+            item
+              Value = 50.000000000000000000
+            end
+            item
+              Value = 50.000000000000000000
+            end>
+          ControlCollection = <
+            item
+              Column = 1
+              Control = Rectangle6
+              Row = 0
+            end
+            item
+              Column = 0
+              Control = Rectangle7
+              Row = 1
+            end
+            item
+              Column = 1
+              Control = Rectangle8
+              Row = 1
+            end
+            item
+              Column = 0
+              Control = Rectangle5
+              Row = 0
+            end>
+          RowCollection = <
+            item
+              Value = 50.000000000000000000
+            end
+            item
+              Value = 50.000000000000000000
+            end>
+          object Rectangle6: TRectangle
+            Anchors = []
+            Fill.Kind = Gradient
+            Fill.Gradient.Points = <
+              item
+                Color = claBlue
+                Offset = 0.000000000000000000
+              end
+              item
+                Color = claWhite
+                Offset = 1.000000000000000000
+              end>
+            Position.X = 237.000000000000000000
+            Position.Y = 12.250000000000000000
+            Size.Width = 186.000000000000000000
+            Size.Height = 72.000000000000000000
+            Size.PlatformDefault = False
+            object Edit3: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              StyleLookup = 'editstyle'
+              TabOrder = 0
+              Position.X = 59.000000000000000000
+              Position.Y = 22.000000000000000000
+              Size.Width = 119.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextPrompt = 'A'#241'adir respuesta 2'
+            end
+            object Path2: TPath
+              Data.Path = {
+                05000000000000000000C8410000004001000000000020420000704101000000
+                0000C8410000E041010000000000204100007041030000000000C84100000040}
+              Fill.Color = claWhite
+              Position.X = 8.000000000000000000
+              Position.Y = 22.000000000000000000
+              Size.Width = 43.000000000000000000
+              Size.Height = 42.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+            end
+          end
+          object Rectangle7: TRectangle
+            Anchors = []
+            Fill.Kind = Gradient
+            Fill.Gradient.Points = <
+              item
+                Color = claYellow
+                Offset = 0.000000000000000000
+              end
+              item
+                Color = claWhite
+                Offset = 1.000000000000000000
+              end>
+            Position.X = 14.000000000000000000
+            Position.Y = 108.250000000000000000
+            Size.Width = 192.000000000000000000
+            Size.Height = 73.000000000000000000
+            Size.PlatformDefault = False
+            object Edit4: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              StyleLookup = 'editstyle'
+              TabOrder = 0
+              Position.X = 59.000000000000000000
+              Position.Y = 24.000000000000000000
+              Size.Width = 119.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextPrompt = 'A'#241'adir respuesta 3'
+            end
+            object Path3: TPath
+              Data.Path = {
+                0E000000000000000000C8410000004002000000D604FD4170C4014002000000
+                F9E813426B85ED4002000000B2CC134260CC6041020000006BB01342066BA541
+                020000000838FC412138D041020000003333C74192FFCF41020000005D2E9241
+                04C7CF410200000084C24E41379EA44102000000A1334F41C4325F4102000000
+                15A44F41F991EB40020000003C7E924124C20140020000001F33C74104000040
+                030000000000C84100000040}
+              Fill.Color = claWhite
+              Position.X = 8.000000000000000000
+              Position.Y = 22.000000000000000000
+              Size.Width = 43.000000000000000000
+              Size.Height = 42.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+            end
+          end
+          object Rectangle8: TRectangle
+            Anchors = []
+            Fill.Kind = Gradient
+            Fill.Gradient.Points = <
+              item
+                Color = claGreen
+                Offset = 0.000000000000000000
+              end
+              item
+                Color = claWhite
+                Offset = 1.000000000000000000
+              end>
+            Position.X = 238.000000000000000000
+            Position.Y = 110.250000000000000000
+            Size.Width = 184.000000000000000000
+            Size.Height = 69.000000000000000000
+            Size.PlatformDefault = False
+            object Edit5: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              StyleLookup = 'editstyle'
+              TabOrder = 0
+              Position.X = 57.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 119.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextPrompt = 'A'#241'adir respuesta 4'
+            end
+            object Path4: TPath
+              Data.Path = {
+                0500000000000000000020410000A04001000000000020420000A04001000000
+                0000204200000C42010000000000204100000C4203000000000020410000A040}
+              Fill.Color = claWhite
+              Position.X = 8.000000000000000000
+              Position.Y = 19.000000000000000000
+              Size.Width = 43.000000000000000000
+              Size.Height = 42.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+            end
+          end
+          object Rectangle5: TRectangle
+            Anchors = []
+            Fill.Kind = Gradient
+            Fill.Gradient.Points = <
+              item
+                Color = claRed
+                Offset = 0.000000000000000000
+              end
+              item
+                Color = claWhite
+                Offset = 1.000000000000000000
+              end>
+            Position.X = 13.500000000000000000
+            Position.Y = 11.250000000000000000
+            Size.Width = 193.000000000000000000
+            Size.Height = 74.000000000000000000
+            Size.PlatformDefault = False
+            object Edit2: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              StyleLookup = 'editstyle'
+              TabOrder = 0
+              Position.X = 58.000000000000000000
+              Position.Y = 24.000000000000000000
+              Size.Width = 119.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextPrompt = 'A'#241'adir respuesta 1'
+            end
+            object Path1: TPath
+              Data.Path = {
+                0400000000000000000020410000C841010000000000C8410000004001000000
+                000020420000C84103000000000020410000C841}
+              Fill.Color = claWhite
+              Position.X = 8.000000000000000000
+              Position.Y = 16.000000000000000000
+              Size.Width = 43.000000000000000000
+              Size.Height = 42.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+            end
+          end
+        end
+        object Button1: TButton
+          Position.X = 352.000000000000000000
+          Position.Y = 10.000000000000000000
+          Size.Width = 96.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'Guardar Juego'
+          OnClick = Button1Click
+        end
+      end
+    end
   end
 end
